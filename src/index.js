@@ -3,10 +3,6 @@ import './css/index.css';
 
 import React from 'react';
 import { render } from 'react-dom';
-//import Scene from './Scene';
-//import Comp from './Scene2';
-//import Physics from './physics';
-//import Appy from './App';
 import GitHub from './components/Links';
 
 

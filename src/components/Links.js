@@ -1,7 +1,6 @@
 /* 12 Nov 2021 */
 import React, { useEffect, useRef } from 'react';
 import gittyKitty from './../img/gittyKitty.png';
-//import gittyKitty from './gittyKitty.png';
 
 
 export default function GitHub(props) {
