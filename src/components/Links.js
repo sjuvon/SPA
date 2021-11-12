@@ -8,12 +8,12 @@ export default function GitHub(props) {
 
     gitHubProps.href = "https://github.com/sjuvon";
     gitHubProps.target = "_blank";
-    gitHubProps.imgsrc = gittyKitty;
-    gitHubProps.imgalt = "GitHub";
+    gitHubProps.imgSrc = gittyKitty;
+    gitHubProps.imgAlt = "GitHub";
 
     return(
     	<a href={gitHubProps.href} target={gitHubProps.target}>
-    	    <img src={gitHubProps.imgsrc} alt={gitHubProps.imgalt} />
+    	    <img src={gitHubProps.imgSrc} alt={gitHubProps.imgAlt} />
     	</a>
     )
 }
