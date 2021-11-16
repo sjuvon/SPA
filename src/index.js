@@ -4,11 +4,15 @@ import './css/index.css';
 import React from 'react';
 import { render } from 'react-dom';
 import GitHub from './components/Links';
+import Physics from './components/physics';
 
 
 const App = () => (
-	<div className="main">
-		<GitHub />
+    <div className="main">
+        <Physics />
+        <div className="container">
+            <GitHub />
+        </div>
 	</div>
 );
 
