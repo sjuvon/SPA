@@ -1,9 +1,16 @@
 
-div.main {
+body { margin: 0; /*background: #282c34;*/ }
+
+
+div
+
+.main {
+	position: relative;
+	border: 0;
 	width: 100%;
 	height: 100%;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	
@@ -17,3 +24,58 @@ div.main {
 	*/
 }
 
+/*
+.main {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 6px solid green;
+	
+}
+*/
+
+
+.container {
+
+    position: absolute;
+    left: 50%;                        /* horizontal alignment */
+    top: 90%;                         /* vertical alignment */
+    transform: translate(-50%, -50%);
+
+
+	/*
+	margin-bottom: 5%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-self: flex-end;
+	*/
+
+    /* N.B.: Specifying width & height conflicts with the engine's mouseclicking event.
+             Fortunately don't seem to need this to get gittyKitty centered.
+	width: 100%;
+	height: 100%;
+	*/
+}
+
+
+/*
+.gitHub {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 50%;
+	left: 50%;
+	z-index: 10;
+}
+*/
